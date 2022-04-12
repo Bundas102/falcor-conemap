@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Parallax.cpp" />
+    <ClCompile Include="ComputeProgramWrapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parallax.h" />
+    <ClInclude Include="ComputeProgramWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderSource Include="Minmax.cs.slang">
+      <Filter>Shaders\Generation</Filter>
+    </ShaderSource>
+    <ShaderSource Include="Parallax.ps.slang">
+      <Filter>Shaders\Rendering</Filter>
+    </ShaderSource>
+    <ShaderSource Include="Parallax.vs.slang">
+      <Filter>Shaders\Rendering</Filter>
+    </ShaderSource>
+    <ShaderSource Include="TextureCopy.cs.slang">
+      <Filter>Shaders</Filter>
+    </ShaderSource>
+    <ShaderSource Include="QuickConemap.cs.slang">
+      <Filter>Shaders\Generation</Filter>
+    </ShaderSource>
+    <ShaderSource Include="ParallaxDebug.ps.slang">
+      <Filter>Shaders</Filter>
+    </ShaderSource>
+    <ShaderSource Include="Refinement.slang">
+      <Filter>Shaders\Rendering</Filter>
+    </ShaderSource>
+    <ShaderSource Include="ProceduralHeightmap.cs.slang">
+      <Filter>Shaders\Generation</Filter>
+    </ShaderSource>
+    <ShaderSource Include="FindIntersection.slang">
+      <Filter>Shaders\Rendering</Filter>
+    </ShaderSource>
+    <ShaderSource Include="Conemap.cs.slang">
+      <Filter>Shaders\Generation</Filter>
+    </ShaderSource>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{3df3657d-b0ec-43a5-8524-5d24d35610ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Generation">
+      <UniqueIdentifier>{8bb1dd7c-e11d-4d9e-8979-d8da68c5643d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Rendering">
+      <UniqueIdentifier>{dfe839b8-b4de-4279-8506-26d40d422042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

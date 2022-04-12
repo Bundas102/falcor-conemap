@@ -1,0 +1,2 @@
+The textures in the folders `Dirt_Cracked` and `Rock_Mossy` are originally from
+https://www.artstation.com/marketplace/p/BR0L/free-11-high-quality-material-textures-including-normal-maps-displacement-maps-and-smoothness-maps-2k-4k
