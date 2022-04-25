@@ -6,9 +6,9 @@
 
 Our project was created in Falcor. You can find the Falcor 4.4 readme below ours. Our project is `Samples > Parallax`.
 
-This project (https://github.com/Bundas102/falcor-conemap) contains the implementation for the Eurpgraphics 2022 Short Paper: *Quick cone map generation on the GPU*, G&aacute;bor Valasek and R&oacute;bert B&aacute;n.
+This project (https://github.com/Bundas102/falcor-conemap) contains the implementation for the Eurpgraphics 2022 Short Paper: *Quick cone map generation on the GPU*, G&aacute;bor Valasek and R&oacute;bert B&aacute;n, https://diglib.eg.org:443/handle/10.2312/egs20221021
 
-Check out https://github.com/Bundas102/falcor-hermite-heightmap for our other project based on the same application for the Eurographics 2022 Poster: *Hermite interpolation of heightmaps*, R&oacute;bert B&aacute;n and G&aacute;bor Valasek.
+Check out https://github.com/Bundas102/falcor-hermite-heightmap for our other project based on the same application for the Eurographics 2022 Poster: *Hermite interpolation of heightmaps*, R&oacute;bert B&aacute;n and G&aacute;bor Valasek, https://diglib.eg.org:443/handle/10.2312/egp20221017
 
 ## Building and running the project
 - Open `Falcor.sln` with Visual Studio
